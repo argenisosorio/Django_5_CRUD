@@ -5,6 +5,6 @@ urlpatterns = [
     # Admin route
     path('admin/', admin.site.urls),
 
-    # Include the URLs from myapp
-    path('', include('myapp.urls')),
+    # Include the URLs from person app.
+    path('', include('person.urls')),
 ]
