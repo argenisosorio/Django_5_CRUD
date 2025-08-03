@@ -15,6 +15,8 @@ $ pip install -r requirements.txt
 
 $ cp Django_5_crud/settings.py_example Django_5_crud/settings.py
 
+$ python manage.py makemigrations
+
 $ python manage.py migrate
 
 $ python manage.py runserver
